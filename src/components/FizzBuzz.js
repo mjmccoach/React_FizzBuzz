@@ -27,6 +27,18 @@ const Fizzbuzz = () => {
         setInputNumber(newNum)
     }
 
+    return (
+        <>
+
+        <button onClick={HandleIncrement}>Increase Number</button>
+        <button onClick={HandleDecrement}>Decrease Number</button>
+
+        <h2>Number is <span>{inputNumber}</span> </h2>
+        <h2>Answer is <span>{answer}</span> </h2>
+        
+        </>
+    )
+
 
 }
 

@@ -22,6 +22,11 @@ const Fizzbuzz = () => {
         setInputNumber(newNum);
     }
 
+    const HandleDecrement = () => {
+        let newNum = inputNumber - 1;
+        setInputNumber(newNum)
+    }
+
 
 }
 

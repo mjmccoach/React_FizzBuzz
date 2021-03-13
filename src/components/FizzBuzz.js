@@ -15,7 +15,7 @@ const Fizzbuzz = () => {
         } else {
             setAnswer(inputNumber);
         }
-    }, inputNumber)
+    }, [inputNumber])
 
     const HandleIncrement = () => {
         let newNum = inputNumber + 1;
